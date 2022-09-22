@@ -1,3 +1,74 @@
-body {
-    background-color: tomato;
+/* Цвет заголовок #212121 */
+/* Основной цвет #757575 */
+/* Белый цвет #FFFFFF */
+/* Цвет акцента #2196F3 */
+
+/* цвет вторичный фон background: #F5F4FA */
+/* цвет футера background: #2F303A */
+
+:root {
+    --primery-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --accent-text-color: #fff;
+    --primery-bg-color: #fff;
+    --accent-bg-color: #ffffff;
+    --footer-bg-color: #2F303A;
 }
+
+body {
+    background-color: var(--primery-bg-color);
+    color: var(--primery-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.logo-accent {
+        color: var(--accent-color);
+}
+
+.logo {
+    color: var(--title-text-color);
+}
+
+/* Стили для index.html */
+/* Site nav */
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.kontact-nav .link {
+    color: var(--accent-color);
+}
+
+/* hero */
+
+.hero {
+    color: var(--title-text-color);
+}
+
+
+/* section */
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* button */
+.button {
+    color: var(--accent-text-color);
+    background-color: var(--accent-color);
+}
+
+
+/* Стили для portfolio.html */
